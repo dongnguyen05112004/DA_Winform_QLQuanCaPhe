@@ -91,6 +91,12 @@
     <Compile Include="frm_KhoHang.Designer.cs">
       <DependentUpon>frm_KhoHang.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_QuanLyMatHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_QuanLyMatHang.Designer.cs">
+      <DependentUpon>frm_QuanLyMatHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frm_DangKy.resx">
@@ -104,6 +110,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frm_KhoHang.resx">
       <DependentUpon>frm_KhoHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_QuanLyMatHang.resx">
+      <DependentUpon>frm_QuanLyMatHang.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
