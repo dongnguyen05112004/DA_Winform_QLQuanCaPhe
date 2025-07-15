@@ -73,6 +73,12 @@
     <Compile Include="frm_DangKy.Designer.cs">
       <DependentUpon>frm_DangKy.cs</DependentUpon>
     </Compile>
+    <Compile Include="frm_DoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_DoanhThu.Designer.cs">
+      <DependentUpon>frm_DoanhThu.cs</DependentUpon>
+    </Compile>
     <Compile Include="frm_HoaDon.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frm_DangKy.resx">
       <DependentUpon>frm_DangKy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_DoanhThu.resx">
+      <DependentUpon>frm_DoanhThu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frm_HoaDon.resx">
       <DependentUpon>frm_HoaDon.cs</DependentUpon>
